@@ -1,31 +1,14 @@
-InputStream inputStream=System.in;
-        Reader inputStreamReader=new InputStreamReader(inputStream);
-        BufferedReader bufferedReader=new BufferedReader(inputStreamReader);
+public class Main {
 
+    public static void main(String[] args) {
+//       String str1 = "Привет";
+//       String str2 = "Пока";
+//
+//        System.out.println(str1 == str2); // false
+        User petya = new User("Petya",26,60);
+        User vasya = new User("Vasya",26,60);
 
-import java.util.Scanner;
+        System.out.println(user.adult(20));
 
-
-public static void main(String[]args){
-        int compNumber=random();
-        int humNumber=scan();
-        if(humNumber==compNumber){
-        System.out.println("Вы выиграли");
-        }else{
-        System.out.println("Вы проиграли");
-        }
-        }
-
-public static int random(){
-        Random newRandom=new Random();
-        int randoNumber=newRandom.nextInt(11)+1;
-        return randoNumber;
-        }
-
-public static int scan(){
-        System.out.println("Введите число от 1 до 10");
-        Scanner scanner=new Scanner(System.in);
-        int humanNumber=scanner.nextInt();
-        return humanNumber;
-        }
-        }
+    }
+}
