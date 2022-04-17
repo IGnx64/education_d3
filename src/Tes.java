@@ -8,7 +8,8 @@ class Sum {
         int a = scan.nextInt();
         System.out.print("B = ");
         int b = scan.nextInt();
-
-        System.out.println("A + B = " + ( a + b ));
+        System.out.print("C = ");
+        int c = scan.nextInt();
+        System.out.println("A + B = " + ( a + b +c ));
     }
 }
